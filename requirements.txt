@@ -3,7 +3,6 @@ flask-cors
 opencv-python
 pymongo
 ffmpeg-python
-gridfs
 librosa
 numpy
 python-dotenv

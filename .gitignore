@@ -2,4 +2,4 @@ audio_files/
 
 
 /venv
-/env
+./env

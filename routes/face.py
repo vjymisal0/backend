@@ -13,7 +13,7 @@ bp = Blueprint('face', __name__)
 camera = None
 CORS(bp)
 # MongoDB setup
-client = MongoClient("mongodb://localhost:27017/")  # Update this with your MongoDB URI
+client = MongoClient("mongodb+srv://pranavhore1455:Pranav%402003@cluster0.8ucsl.mongodb.net/")  # Update this with your MongoDB URI
 db = client["video_storage"]
 fs = gridfs.GridFS(db)
 # Path to temporarily store the recorded video before uploading
